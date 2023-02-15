@@ -1,0 +1,62 @@
+/* TYPOGRAPHY SYSTEM
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: hsl(218, 44%, 22%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  text-align: center;
+  max-width: 30rem;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  margin-bottom: 2rem;
+  /* padding-bottom: 2rem; */
+}
