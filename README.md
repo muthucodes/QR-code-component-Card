@@ -15,6 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./screenshots/desktop-ss.png)
 ![](./screenshots/mobile-ss.png)
 
-### Links
+### Link to live site
 
 - Live Site URL: [QR code component](https://qr-code-component-muthu.netlify.app/)
